@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #01426a
+      }
+
+      th  {
+        background-color: #ece81a
+      }
+      tr:hover {background-color: #ece81a}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Core4 Concept</th>
+          <th>Technical Definition</th>
+          <th>Real-Life Analogy</th>
+          <th>Python Example</th>
+          <th>Scratch Example</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Variables</b></td>
+          <td> Stores different types of data and can be accessed in multiple pleaces in the code </td>
+          <td> Used in math to store numerical values </td>
+          <td><img src=http://cdn.guru99.com/images/7-2015/071515_0528_Variablesin1.png alt="PyVar" style="width:200px;height:150px"></td>
+          <td><img src=https://barefootcas.org.uk/wp-content/uploads/2014/10/Variables_image-5_variable-commands.png alt="ScratchVar" style="width:200px;height:250px"></td>
+        </tr>
+
+        <!-- Fill in the row for Loops -->
+        <tr>
+          <td><b>Loops</b></td>
+          <td> Used to repeat a section of code </td>
+          <td> In the nursery rhyme "10 Little Monkeys," the # of monkeys decreases by 1 and the song stops when there are no more monkeys on the bed. </td>
+          <td><img src=http://cdn.guru99.com/images/7-2015/071515_1005_PythonLoops1.png alt="PyLoop" style="width:200px;height:150px"></td>
+          <td><img src=http://freetext.org/Concepts_in_Programming_with_Scratch/Assets/Images/GX51.png alt="ScratchLoop" ></td>
+        </tr>
+
+        <!-- Fill in the row for Conditionals -->
+        <tr>
+          <td><b>Conditionals</b></td>
+          <td> Actions are done if a certain condition is or is not met </td>
+          <td> If you have a driver's license, you can drive. But if you don't have a dirver's license, you can't drive </td>
+          <td><img src=http://cdn.guru99.com/images/7-2015/071515_0847_IfLoopPytho1.png alt="PyConditional" style="width:200px;height:150px"></td>
+          <td><img src=https://forrestercomputing.wikispaces.com/file/view/Scratch_If_Then_Else.jpg/331027226/Scratch_If_Then_Else.jpg alt="ScratchConditional" ></td>
+        </tr>
+
+        <!-- Fill in the row for Functions -->
+        <tr>
+          <td><b>Functions</b></td>
+          <td> Performs a certain action or set of actions </td>
+          <td> In math, f(x)=x+5 is a function of x, and it adds 5 to the value of x </td>
+          <td><img src=http://cdn.guru99.com/images/7-2015/071515_0820_Functionsin1.png alt="PyFunction" style = "width:200px;height:100px"></td>
+          <td><img src=https://bournetocode.com/projects/7-CS-lolcats/pages/img/Function_3.png alt="ScratchFunction" style="width:250px;height:175px"></td>
+        </tr>
+
+      </table>
+    </div>
+    
+  </body>
+</html>
